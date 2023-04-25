@@ -151,7 +151,7 @@ main {
 
 .banner-wrapper > div > div:first-child > div > h4 {
   margin: 30px 0;
-  width: 70%;
+  width: 50%;
   line-height: 30px;
   font-weight: 300;
   color: #737373;
@@ -433,6 +433,23 @@ footer .footer-top > div > div > div:last-of-type .fill-btn a {
     gap: 20px;
     flex-direction: column;
   }
+
+  .banner {
+    padding: 0;
+  }
+
+  .banner-wrapper > div > div:first-child > div > h4 {
+    margin: 20px auto;
+  }
+
+  .banner-wrapper > div > div:first-child > div > .center {
+    justify-content: center;
+  }
+
+  .banner-wrapper > div > div:first-child > div > h4 {
+    text-align: center;
+    width: 100% !important;
+  }
 }
 
 @media only screen and (max-width: 532px) {
@@ -442,9 +459,7 @@ footer .footer-top > div > div > div:last-of-type .fill-btn a {
   .banner-wrapper > div > div:first-child > div > h5 {
     margin-bottom: 10px !important;
   }
-  .banner-wrapper > div > div:first-child > div > h4 {
-    margin: 10px auto;
-  }
+
   .banner-wrapper > div > div:first-child > div > h1 {
     text-align: center;
     font-size: 40px;
@@ -468,6 +483,20 @@ footer .footer-top > div > div > div:last-of-type .fill-btn a {
 
   .footer-middle {
     padding-bottom: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 564px) {
+  .banner-wrapper > div > div:first-child > div > h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .banner-wrapper > div > div:first-child > div > h5 {
+    text-align: center;
+  }
+
+  .banner-wrapper > div > div:first-child > div > h1 span {
+    display: block;
   }
 }
 
